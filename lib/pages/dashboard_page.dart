@@ -17,7 +17,7 @@ class DashboardPage extends StatelessWidget {
         actions: [
           IconButton(
             icon: Icon(Icons.account_circle),
-            tooltip: 'Profil',
+            tooltip: 'Profile',
             onPressed: () {
               Navigator.push(
                 context,
